@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+body {
+    background-color: #FFFFFF;
+    min-width: 1500px;
+    min-height: 500px;
+}
+
+header {
+    margin-right: -16px;
+}
+
+nav {
+    width: 100%;
+    height: 66px;
+    background-color: white;
+    position: relative;
+    top: -8px;
+    right: -8px;
+    z-index: 5;
+}
+
+nav ul {
+    position: relative;
+    top: 5px;
+    left: 963px;
+}
+
+nav ul li {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px 10px;
+
+}
+
+nav ul li:hover {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px 10px;
+    border-bottom: 3px solid #FFA000;
+    padding-bottom: 5px;
+
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #647C93;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+
+.img {
+    margin: 6px auto;
+    width: 100%;
+    height: 300px;
+    opacity: 0.7;
+    z-index: 0;
+    border-bottom: 3px solid #1F4569;
+}
+
+main {
+    width: 998px;
+    margin: 0 auto;
+}
+
+
+.story {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 69px;
+    margin-bottom: 64px;
+}
+
+.verticalLine {
+    margin-left: 440px;
+    height: 2455px;
+    border-left: thick solid #1F4569;
+    /*margin-bottom: 45px;*/
+}
+
+.year {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 15px;
+}
+
+.line-images {
+    border-radius: 50%;
+    margin-left: -165px;
+    height: 307px;
+    margin-top: -18px;
+    width: 315px;
+    border: 3px solid #1F4569;
+}
+
+.line-images:hover, .image-2000:hover, .image-2004:hover, .image-2013:hover, .image-2030:hover, .image-2050:hover {
+    cursor: pointer;
+}
+
+.text-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    position: relative;
+    top: -328px;
+    left: -665px;
+}
+
+.text {
+    width: 402px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: -328px;
+    left: -665px;
+}
+
+.year-2000 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 15px;
+    position: relative;
+    top: -250px;
+}
+
+.image-2000 {
+    border-radius: 50%;
+    margin-left: -165px;
+    height: 307px;
+    margin-top: -251px;
+    width: 315px;
+    border: 3px solid #1F4569;
+}
+
+.text-header-2000 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    position: relative;
+    top: -350px;
+    left: 214px;
+}
+
+.text-2000 {
+    width: 402px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: -328px;
+    left: 220px;
+}
+
+.year-2004 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 15px;
+    position: relative;
+    top: -297px;
+}
+
+.image-2004 {
+    border-radius: 50%;
+    margin-left: -165px;
+    height: 307px;
+    margin-top: -311px;
+    width: 315px;
+    border: 3px solid #1F4569;
+}
+
+.text-header-2004 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    position: relative;
+    top: -353px;
+    left: -665px;
+}
+
+.text-2004 {
+    width: 402px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: -328px;
+    left: -665px;
+}
+
+.year-2013 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 15px;
+    position: relative;
+    top: -250px;
+}
+
+.text-header-2013 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    position: relative;
+    top: -350px;
+    left: 214px;
+}
+
+.text-2013 {
+    width: 402px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: -328px;
+    left: 220px;
+}
+
+.image-2013 {
+    border-radius: 50%;
+    margin-left: -165px;
+    height: 307px;
+    margin-top: -266px;
+    width: 315px;
+    border: 3px solid #1F4569;
+}
+
+.year-2030 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 15px;
+    position: relative;
+    top: -187px;
+}
+
+.image-2030 {
+    border-radius: 50%;
+    margin-left: -165px;
+    height: 307px;
+    margin-top: -221px;
+    width: 315px;
+    border: 3px solid #1F4569;
+}
+
+.text-header-2030 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    position: relative;
+    top: -353px;
+    left: -665px;
+}
+
+.text-2030 {
+    width: 402px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: -328px;
+    left: -665px;
+}
+
+.year-2050 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 15px;
+    position: relative;
+    top: -241px;
+}
+
+.image-2050 {
+    border-radius: 50%;
+    margin-left: -165px;
+    height: 307px;
+    margin-top: -265px;
+    width: 315px;
+    border: 3px solid #1F4569;
+}
+
+.text-header-2050 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    position: relative;
+    top: -350px;
+    left: 214px;
+}
+
+.text-2050 {
+    width: 402px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: -328px;
+    left: 220px;
+}
+
+.nowadays-img {
+    margin-top: 250px;
+    width: 400px;
+    height: 243px;
+    border-radius: 15px;
+}
+
+.nowadays p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.welcome{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #647C93;
+}
+
+a .welcome {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #647C93;
+}
+
+a .welcome:hover {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #FFA000;
+}
+
+.pobedihgo {
+    cursor: pointer;
+    margin-left: 282px;
+    width: 315px;
+    height: 307px;
+    border-radius: 50%;
+    opacity: 0;
+}
