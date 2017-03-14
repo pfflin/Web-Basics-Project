@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+header {
+    background: url("img/softunii.jpg") no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+/*.site-header > * {*/
+    /*background: rgba(26, 27, 56, 0.9);*/
+    /*background-size: 100% 100%;*/
+/*}*/
+
+
+.site-header {
+    background: rgba(26, 27, 56, 0.9);
+    background-size: 100% 100%;
+}
+
+.site-header > p {
+    padding: 30px;
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+    float: left;
+
+}
+
+.site-header > p > span {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #B6ADEC;
+
+}
+
+.header-section {
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+
+}
+
+.header-section > img {
+    border: 11px solid white;
+    width: 180px;
+    height: 180px;
+    margin-top: 400px;
+    margin-bottom: -106px;
+    margin-left: 42px;
+    -webkit-box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
+    z-index: 5;
+    position: relative;
+
+
+}
+
+.site-header > nav {
+    float: right;
+}
+
+.site-header > nav > ul > li {
+    padding: 20px;
+    display: inline-block;
+
+}
+
+.site-header > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-header > nav > ul > li > a:hover {
+    color: #B6ADEC;
+    cursor: pointer;
+}
+
+main {
+    margin: 30px auto;
+    width: 100%;
+}
+
+main article {
+    display: inline-block;
+}
+
+
+main > content > article {
+    float: left;
+    padding: 88px;
+    width: calc(65% - 125px);
+}
+
+main > content > article > h1 {
+    color: #424577;
+}
+
+aside {
+    padding: 0;
+    z-index: 0;
+
+}
+
+aside > article {
+    width: 31%;
+    background: url(img/softunibilboard.jpg)no-repeat;
+    background-size: 100% 100%;
+    margin-right: -13px;
+    color: white;
+    margin-top: -31px;
+}
+
+aside > article > h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.violet-background {
+    background-color: #424577;
+    opacity: 0.7;
+    padding: 135px 50px 150px;
+
+}
+
+.violet-background > h1, .violet-background > p {
+    opacity: 1; !important;
+}
+
+.choose-future > li {
+    padding-bottom: 20px;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-section img {
+    padding: 34px;
+    width: 332px;
+    height: 332px;
+    border-radius: 30%;
+}
