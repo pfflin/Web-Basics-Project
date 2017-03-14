@@ -67,9 +67,9 @@ header {
 }
 
 .site-header > nav > ul > li {
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
-
+    margin-right: 28px;
 }
 
 .site-header > nav > ul > li > a {
