@@ -18,25 +18,28 @@ header {
 /*}*/
 
 
-.site-header {
-    background: rgba(26, 27, 56, 0.9);
-    background-size: 100% 100%;
+.violet-background-header {
+    background-color: #424577;
+    opacity: 0.7;
+    width: 100%;
 }
 
-.site-header > p {
+.violet-background-header > p {
     padding: 30px;
     margin: 0;
     font-size: 2rem;
     color: white;
+    width: 35%;
     float: left;
+    opacity: 1 !important;
 
 }
 
-.site-header > p > span {
+.violet-background-header > p > span {
     font-weight: bold;
     font-size: 2.5rem;
     color: #B6ADEC;
-
+    opacity: 1 !important;
 }
 
 .header-section {
@@ -62,22 +65,25 @@ header {
 
 }
 
-.site-header > nav {
-    float: right;
+.violet-background-header > nav {
+    text-align: right;
+    height: 78px;
+    padding-top: 22px;
 }
 
-.site-header > nav > ul > li {
+.violet-background-header > nav > ul > li {
     padding: 10px;
     display: inline-block;
     margin-right: 28px;
+
 }
 
-.site-header > nav > ul > li > a {
+.violet-background-header > nav > ul > li > a {
     color: white;
     text-decoration: none;
 }
 
-.site-header > nav > ul > li > a:hover {
+.violet-background-header > nav > ul > li > a:hover {
     color: #B6ADEC;
     cursor: pointer;
 }
