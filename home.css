@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
@@ -138,6 +139,20 @@ aside > article > h1 > a {
     padding-bottom: 20px;
 }
 
+.choose-future > li a {
+    opacity: 1; !important;
+    color: white;
+    text-decoration: none;
+}
+
+.choose-future > li > a {
+    text-decoration: none;
+}
+
+.choose-future > a:hover {
+    cursor: pointer;
+}
+
 .image-section {
     text-align: center;
 }
@@ -146,5 +161,19 @@ aside > article > h1 > a {
     padding: 34px;
     width: 332px;
     height: 332px;
-    border-radius: 30%;
+    border-radius: 10%;
+}
+
+.violet-background > h1 > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    font-size: 1.6rem;
+    padding: 13px;
+    background-color: #414577;
+    text-align: center;
+    color: white;
+    height: 20%;
 }
