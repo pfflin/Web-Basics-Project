@@ -1,0 +1,39 @@
+@media screen and (max-width: 1024px){
+    .container{
+        width: 80%;
+        float: right;
+    }
+    nav{
+        height: 0;
+        position: absolute;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        float: none;
+    }
+    .img{
+        height: auto;
+    }
+    nav ul{
+        position: relative;
+        top: 650px;
+        right: 40px;
+    }
+    nav ul li {
+        width: 120px;
+        padding: 15px;
+    }
+    nav ul li:hover {
+        display: inline-block;
+        overflow: hidden;
+        padding: 15px;
+        border-bottom: 3px solid #FFA000;
+    }
+
+    nav ul li a {
+        width: 120px;
+        padding: 15px 15px 15px 0;
+        font-size: 18px;
+    }
+}
