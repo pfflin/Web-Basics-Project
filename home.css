@@ -20,7 +20,6 @@ header p {
     color: #bcbcbc;
     width: 17%;
     float: left;
-
 }
 
 .site-header {
@@ -48,15 +47,14 @@ margin-right: 28px;
 }
 
 .site-header > nav > ul > li > a {
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .site-header > nav > ul > li > a:hover {
-color: #B6ADEC;
-cursor: pointer;
+    color: rgb(255, 82, 116);
+    cursor: pointer;
 }
-
 
 .header-center h1 {
     text-align: center;
@@ -82,13 +80,10 @@ cursor: pointer;
     padding-bottom: 14%;
 }
 
-
-
 .button-center > button {
     text-align: center;
     margin: 0 auto;
     width: 17%;
-    margin: 0 auto;
     height: 58px;
     text-transform: uppercase;
     background-color: transparent;
@@ -105,9 +100,13 @@ cursor: pointer;
 }
 
 
-
-.button-center > button:hover {
+.button-center button:hover {
     cursor: pointer;
+    background-color: rgb(255, 82, 116);
+    color: white;
+}
+
+.button-center > button a:hover {
     background-color: rgb(255, 82, 116);
     color: white;
 }
@@ -155,9 +154,6 @@ cursor: pointer;
     padding-top: 139px;
 }
 
-
-
-
 .header-center a {
     transition-timing-function: ease;
     transition-duration: 200ms;
@@ -165,19 +161,10 @@ cursor: pointer;
     box-sizing: border-box;
 }
 
-/*.fa-angle-down {*/
-    /*color: white;*/
-    /*text-align: center;*/
-    /*font-size: 3rem;*/
-    /*margin: 0 auto;*/
-    /*width: 100%;*/
-/*}*/
-
 .header-section {
     text-align: center;
     margin: 0 auto;
     clear: both;
-
 }
 
 .header-section > img {
@@ -192,11 +179,7 @@ cursor: pointer;
     box-shadow: 0px 0px 14px -2px rgba(0,0,0,0.75);
     z-index: 5;
     position: relative;
-
-
 }
-
-
 
 main {
     margin: 30px auto;
@@ -243,80 +226,65 @@ main {
     font-size: 15px;
 }
 
-
-
 main article {
     display: inline-block;
 }
 
-main hr {
-    margin-top: 4%;
-}
-
-main > content > article {
+aside article:first-child {
     margin-top: 20px;
     float: left;
     padding-left: 91px;
-    width: 46%;
-    padding-right: 76px;
+    width: 42%;
+    padding-right: 9%;
     text-align: left;
-}
-
-main > content > article > h1 {
     color: #48484c;
-    text-align: center;
+    font-size: 15px;
+    line-height: 29px;
 }
 
-main > content > article > p {
+aside article:first-child p {
     text-align: left;
+    color: rgba(28, 54, 83, 0.6);
+
 }
 
 aside {
+    background-color: #F3F4F8;
     padding: 0;
-    z-index: 0;
-
+    margin-top: 5%;
+    padding-bottom: 5%;
 }
 
-aside > article {
-    width: 38%;
-    background: url(img/softunibilboard.jpg)no-repeat;
+.fa-graduation-cap {
+    color: rgb(255, 82, 116);
+    margin: 0;
+    font-size: 2rem;
+}
+
+aside > article:nth-child(2) {
+    width: 30%;
+    background: url(img/softunibilboard-background.jpg)no-repeat;
     background-size: 100% 100%;
-    margin-right: -13px;
     color: white;
-    margin-top: -9px;
+    font-size: 2rem;
+    padding-top: 3%;
+    padding-bottom: 19%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 aside > article > h1 > a {
     text-decoration: none;
-    color: white;
+    color: #fff;
+    font-weight: 500;
 }
 
-
-
-.violet-background {
-    background-color: #424577;
-    opacity: 0.7;
-    padding: 10px 44px 230px;
-
-}
-
-.violet-background h1 {
+aside > article:first-child > h1 {
+    font-weight: 500;
     font-size: 2rem;
-    text-shadow: 2px 2px #1a1b38;
-}
-
-.violet-background h1:hover {
-    cursor: pointer;
-}
-
-.violet-background > h1, .violet-background > p {
-    opacity: 1; !important;
-}
-
-
-.violet-background > h1 > a {
-    color: white;
-    text-decoration: none;
+    margin-top: 15%;
+    margin-bottom: 8%;
+    color: #3D4351;
 }
 
 .choose-future > li {
@@ -326,7 +294,6 @@ aside > article > h1 > a {
 }
 
 .choose-future > li a {
-    opacity: 1; !important;
     color: white;
     text-decoration: none;
 }
@@ -341,23 +308,51 @@ aside > article > h1 > a {
 
 .image-section {
     text-align: center;
+    padding-top: 8%;
+    padding-bottom: 13%;
+    background-color: #F3F4F8;
 }
 
-.image-section img {
-    margin-top: 45px;
-    width: 24%;
-    height: 238px;
-    border: 2px solid #48484c;
-    margin-left: 13px;
+.image-section article {
+    width: 30%;
+    vertical-align: top;
+    margin-right: 22px;
 }
 
+.image-section article img {
+    width: 100%;
+}
+
+.image-section article h3 {
+    color: #FF5274;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.image-section article p {
+    color: rgba(28, 54, 83, 0.6);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+
+.fa-angle-right {
+    font-size: 36px;
+    color: rgba(28, 54, 83, 0.6);
+    padding-top: 0;
+    padding-left: 17px;
+    text-align: center;
+    margin-top: 8px;
+}
 
 .news {
+    padding-top: 38px;
     text-align: center;
-    background: url("img/transperent.jpg");
+    background: url(img/polygonal-bg.jpg);
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    margin: -23px auto;
+    margin: -24px auto;
+    padding-bottom: 42px;
 }
 
 .news img {
@@ -370,80 +365,106 @@ aside > article > h1 > a {
 }
 
 .news h1 {
-    font-size: 2rem;
+    font-size: 40px;
     padding-top: 31px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.news p {
+    color: #ACB1B4;
+    font-size: 15px;
+    line-height: 29px;
+    padding-bottom: 20px;
+
 }
 
 .news-article {
-    opacity: 1;
     display: inline-block;
     width: 21%;
     background-color: white;
     vertical-align: top;
     margin: 40px 11px;
-    border: 2px solid #B3B3B3;
+}
+
+.news button {
+    text-align: center;
+    margin: 0 auto;
+    width: 17%;
+    height: 58px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 82, 116);
+    color: rgb(255, 82, 116);
+    font-size: 1.2rem;
+    padding: 12px;
+    margin-bottom: 12%;
+}
+
+.news img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    left: 43%;
+    margin-top: 173px;
 }
 
 
 
+.news button a {
+    color: rgb(255, 82, 116);
+    text-decoration: none;
+}
 
 
+.news button :hover {
+    cursor: pointer;
+    background-color: rgb(255, 82, 116);
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.news button a:hover {
+    background-color: rgb(255, 82, 116);
+    color: white;
+}
 
 footer {
     font-size: 1.6rem;
     padding: 13px;
-    background-color: #414577;
+    background-color: #373D4A;
     text-align: center;
-    color: white;
+    color: #fff;
     height: 20%;
 }
 
-
-
 .site-footer {
-    background: #424577;
+    background: #373D4A;
     text-align: center;
     font-size: 0.8em;
+    margin-top: 16%;
 }
 
 .site-footer section {
     vertical-align: top;
-    color: white;
-    width: 230px;
+    color: #fff;
+    width: 25%;
     margin: 5px;
     display: inline-block;
     text-align: left;
 }
 
-.site-footer .consulting p {
-    margin-left: 30px;
-}
-
 .site-footer p.social-links {
-    margin: 30px 0px 0px 50px;
     width: 90%;
 }
 
 .site-footer .social-links a {
     text-decoration: none;
-    color: #424577;
+    color: #373D4A;
     background: rgba(255, 255, 255, 0.5);
     font-size: 1.5em;
     margin: 5px;
-    width: 20px;
-    height: 20px;
+    width: 7%;
     line-height: 20px;
     display: inline-block;
     text-align: center;
@@ -456,9 +477,6 @@ footer {
     box-shadow: 0px 0px 4px white;
 }
 
-.site-footer .extra-links .first-column {
-    margin-left: 30px;
-}
 
 .site-footer .extra-links div {
     display: inline-block;
@@ -477,22 +495,38 @@ footer {
     color: #f1e3d2;
 }
 
-.site-footer .instagram-widget li {
-    display: inline-block;
+.site-footer .other-photos li {
+    display: block;
+    text-align: center;
 }
 
-.site-footer .instagram-widget img {
-    width: 58px;
-    height: 58px;
+.site-footer .other-photos img {
+    width: 40%;
+    padding: 7px;
 }
 
-.site-footer .instagram-widget img:hover {
+.site-footer .other-photos img:hover {
     opacity: 0.8;
 }
 
-
-
-aside hr {
-    margin-top: 1px;
+.other-photos h1 {
+    text-align: center;
+    padding-bottom: 5%;
 }
 
+.fa-map-marker, .fa-clock-o, .fa-phone, .fa-facebook, .fa-twitter, .fa-linkedin, .fa-youtube {
+    padding-top: 0;
+}
+
+.fa-map-marker, .fa-clock-o, .fa-phone {
+    padding-bottom: 8px;
+}
+
+.consulting > p {
+    text-align: left;
+    padding-bottom: 18px;
+}
+
+.social-links {
+    text-align: left;
+}
