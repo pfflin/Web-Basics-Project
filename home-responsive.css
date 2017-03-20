@@ -155,26 +155,18 @@
         text-align: center;
     }
 
+
+}
+
     .consulting > p {
         text-align: center;
     }
 
-@media screen and (max-width: 572px) {
-
-}
-
-
-
-
-
-
-
-
-
-
-}
-
 @media screen and (max-width: 576px) {
+
+    .header-center > p {
+        width: 58%;
+    }
     .site-header > nav {
         height: auto;
     }
@@ -210,4 +202,13 @@
     .news button {
         font-size: 1rem;
     }
+
+    .site-footer .extra-links div {
+        width: auto;
+    }
+
+    .other-photos ul {
+        padding: 0;
+    }
+
 }
