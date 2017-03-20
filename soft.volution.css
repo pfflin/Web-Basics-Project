@@ -148,33 +148,14 @@ header p {
     position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main {
     width: 100%;
     margin: -18px auto;
     background-color: #F3F4F8;
     padding-top: 20px;
+    padding-bottom: 10%;
 
 }
-
 
 .welcome {
     text-decoration: none;
@@ -183,8 +164,6 @@ main {
     color: rgba(28, 54, 83, 0.6);
     font-weight: 400;
 }
-
-
 
 a .welcome:hover {
     cursor: pointer;
@@ -214,7 +193,7 @@ main section article {
     height: 300px;
     border-radius: 50%;
     max-width: 100%;
-    margin: 0 39%;
+    margin: 0 auto;
     text-align: center;
     transition: transform 5s;
     display: block;
@@ -240,8 +219,6 @@ main section article {
     padding-bottom: 60px;
 }
 
-
-
 footer {
     font-size: 1.6rem;
     padding: 13px;
@@ -255,6 +232,7 @@ footer {
     background: #373D4A;
     text-align: center;
     font-size: 0.8em;
+    margin-top: 0;
 }
 
 .site-footer section {
